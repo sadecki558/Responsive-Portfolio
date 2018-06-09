@@ -139,21 +139,7 @@ header {
     background-color: #ffffff;
     border-bottom: 2px #cccccc solid;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-    display: inline-block;
-}
 
-nav {
-    font-size: 1em;
-    list-style-type: none;
-    text-align: center;
-    vertical-align: middle;
-}
 
 header li {
     display: block;
@@ -186,3 +172,84 @@ body {
     background-repeat: repeat;
 }
 
+
+
+@media (max-width: 768px) {
+
+    header {
+        height: 160px;
+        width: 100%;
+        background-color: #ffffff;
+        border-bottom: 2px solid #cccccc;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    li {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        margin-top: 26px;
+    }
+
+
+    ul {
+        width: 300px;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    header {
+        height: 160px;
+        width: 100%;
+        background-color: #ffffff;
+        border-bottom: 2px solid #cccccc;
+        margin-bottom: 40px;
+    }
+    header li { 
+        text-align: center;
+        margin: 0px;
+        padding: 10px;
+        width: 30%;
+
+    }
+
+    li {
+        display: block;
+        margin-top: 26px;
+    }
+
+    header div {
+        width: 100%;
+    }
+
+    #profilepicture {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+     
+    }
+    main {
+        margin-top: 30%;
+        width: 80%;
+        height: 100%;
+
+    }
+        
+    #namebanner {
+        background-color: #4aaaa5;
+        height: 100px;
+        width: 100%;
+        float: left;
+        
+    }
+    #headermod {
+        width: 100%;
+        margin: none;
+    }
+ 
+}
